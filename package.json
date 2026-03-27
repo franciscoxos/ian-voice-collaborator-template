@@ -1,0 +1,15 @@
+{
+  "name": "ian-voice-collaborator",
+  "version": "0.1.0",
+  "description": "Colaborador Digital de Voz — Confirmación y seguimiento de citas via Vapi.ai",
+  "private": true,
+  "scripts": {
+    "db:migrate": "npx supabase db push",
+    "functions:serve": "npx supabase functions serve",
+    "functions:deploy:make-call": "npx supabase functions deploy make-call --no-verify-jwt",
+    "functions:deploy:vapi-webhook": "npx supabase functions deploy vapi-webhook --no-verify-jwt"
+  },
+  "devDependencies": {
+    "supabase": "^2.81.2"
+  }
+}

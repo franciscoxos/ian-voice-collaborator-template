@@ -1,0 +1,25 @@
+node_modules/
+.env
+.env.local
+*.local
+
+# Claude Code / agent memory (never distribute)
+.claude/
+CLAUDE.md
+CONTEXT.md
+MEMORY.md
+memory/
+
+# Internal docs (never distribute)
+PLAN-*.md
+PLAN_*.md
+SESSION_*.md
+WORK_PLAN_*.md
+CAMPAÑA-*.md
+docs/internal/
+
+# Editor
+.vscode/
+.idea/
+.DS_Store
+*.sw?
