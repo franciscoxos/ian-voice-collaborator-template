@@ -1,0 +1,14 @@
+node_modules/
+.env
+.env.local
+*.local
+
+# Claude settings (may contain tokens)
+.claude/settings.json
+.claude/settings.local.json
+
+# Editor
+.vscode/
+.idea/
+.DS_Store
+*.sw?
