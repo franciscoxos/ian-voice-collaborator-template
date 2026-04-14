@@ -1,11 +1,17 @@
-# Integración con Centro de Mando Inteligente
+# Integración con un Centro de Mando (CDM)
 
-Módulo de acoplamiento al Centro de Mando (Fase 2).
+Módulo de acoplamiento opcional (Fase 2).
 
-**No construir ahora.** Este módulo se activa cuando un cliente tiene tanto el Colaborador Digital de Voz como el Centro de Mando Inteligente.
+**No construir ahora.** Este módulo se activa cuando conectes este colaborador de voz a un Centro de Mando (CDM) que agrupe leads, actividades y reuniones en un solo sistema operativo del negocio.
 
 ## Qué hará
 
-- Leer contactos de `ian_leads` / `ian_clients` del CdM
-- Escribir resultados en `ian_activity_log` y `ian_meetings` del CdM
-- Registrarse como `ian_digital_collaborators` con config, permisos y métricas
+- Leer contactos desde las tablas del CDM (ej: `leads`, `clients`)
+- Escribir resultados de llamadas en tablas de actividad y reuniones del CDM
+- Registrarse en el CDM como un colaborador digital activo con configuración, permisos y métricas
+
+## Convención sugerida
+
+Las tablas del CDM receptor pueden seguir cualquier convención de nombres. Este módulo expone un adaptador configurable para mapear los campos de este colaborador de voz (`contacts`, `call_logs`) a los campos de tu CDM.
+
+La integración se documenta en detalle cuando activemos la Fase 2.

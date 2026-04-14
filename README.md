@@ -1,6 +1,6 @@
 # Colaborador Digital de Voz
 
-Colaborador digital de IA & Negocios que hace llamadas telefónicas automatizadas para confirmación y seguimiento de citas.
+Template open-source de un colaborador digital que hace llamadas telefónicas automatizadas para confirmación y seguimiento de citas. Piénsalo como un empleado virtual que trabaja 24/7, habla natural, y deja todo registrado.
 
 ## Qué hace
 
@@ -147,8 +147,20 @@ curl -X POST "TU_SUPABASE_URL/functions/v1/make-call" \
 
 Ve a tu proyecto en [supabase.com](https://supabase.com) → Table Editor → `call_logs` para ver transcripciones y resultados.
 
-## Producto de IA & Negocios
+## ¿Y después?
 
-Este colaborador es un producto standalone que funciona de manera independiente. Su verdadero potencial se activa cuando se acopla al [Centro de Mando Inteligente](https://iaynegocios.net) — automatización completa del ciclo de ventas y atención.
+Este colaborador es un producto standalone que funciona solo. Pero su verdadero potencial aparece cuando se acopla a un **Centro de Mando (CDM)** — el sistema operativo de tu negocio donde viven leads, tareas, calendario, pagos y contenido integrados con IA.
 
-¿Necesitas ayuda con la instalación? [Escríbenos por WhatsApp](https://wa.me/34610842736?text=Hola!%20Ya%20tengo%20el%20colaborador%20digital%20de%20voz%20y%20quiero%20que%20me%20ayuden%20con%20la%20instalaci%C3%B3n.)
+La diferencia:
+
+| CRM tradicional | Centro de Mando (CDM) |
+|---|---|
+| Solo gestión de clientes | Sistema operativo completo del negocio |
+| Plataforma que alquilas | Patrimonio digital que construyes |
+| Silos (CRM, CMS, WhatsApp, email por separado) | Todo integrado con IA nativa |
+
+El módulo `integration/` de este repo prepara el acople. Actívalo cuando tu CDM esté listo.
+
+## Licencia
+
+MIT — úsalo, modifícalo, adáptalo. Si construyes algo potente con este template, sería genial saberlo.

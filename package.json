@@ -1,7 +1,7 @@
 {
-  "name": "ian-voice-collaborator",
+  "name": "voice-collaborator-template",
   "version": "0.1.0",
-  "description": "Colaborador Digital de Voz — Confirmación y seguimiento de citas via Vapi.ai",
+  "description": "Colaborador Digital de Voz — Template open-source para confirmación y seguimiento de citas (Telnyx + Vapi)",
   "private": true,
   "scripts": {
     "db:migrate": "npx supabase db push",

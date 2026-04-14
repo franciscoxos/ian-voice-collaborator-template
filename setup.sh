@@ -1,7 +1,7 @@
 #!/bin/bash
 # =============================================================
 # COLABORADOR DIGITAL DE VOZ — Script de instalación asistida
-# IA & Negocios — https://iaynegocios.com
+# Template open-source para tu propio colaborador digital
 # =============================================================
 
 set -e
@@ -38,7 +38,7 @@ clear
 echo ""
 echo -e "${BOLD}╔════════════════════════════════════════════╗${NC}"
 echo -e "${BOLD}║   COLABORADOR DIGITAL DE VOZ               ║${NC}"
-echo -e "${BOLD}║   Instalación asistida — IA & Negocios     ║${NC}"
+echo -e "${BOLD}║   Instalación asistida                     ║${NC}"
 echo -e "${BOLD}╚════════════════════════════════════════════╝${NC}"
 echo ""
 echo "Este script te guiará paso a paso para instalar y configurar"
