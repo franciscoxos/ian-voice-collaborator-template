@@ -1,6 +1,6 @@
 # Colaborador Digital de Voz
 
-Template open-source de un colaborador digital que hace llamadas telefónicas automatizadas para confirmación y seguimiento de citas. Piénsalo como un empleado virtual que trabaja 24/7, habla natural, y deja todo registrado.
+Colaborador digital de [IA & Negocios](https://iaynegocios.net) que hace llamadas telefónicas automatizadas para confirmación y seguimiento de citas. Un empleado virtual que trabaja 24/7, habla natural, y deja todo registrado.
 
 ## Qué hace
 
@@ -147,11 +147,11 @@ curl -X POST "TU_SUPABASE_URL/functions/v1/make-call" \
 
 Ve a tu proyecto en [supabase.com](https://supabase.com) → Table Editor → `call_logs` para ver transcripciones y resultados.
 
-## ¿Y después?
+## Producto de IA & Negocios
 
-Este colaborador es un producto standalone que funciona solo. Pero su verdadero potencial aparece cuando se acopla a un **Centro de Mando (CDM)** — el sistema operativo de tu negocio donde viven leads, tareas, calendario, pagos y contenido integrados con IA.
+Este colaborador es un producto standalone que funciona de manera independiente. Su verdadero potencial se activa cuando se acopla al **Centro de Mando Inteligente (CDM)** de [IA & Negocios](https://iaynegocios.net) — el sistema operativo del negocio donde viven leads, tareas, calendario, pagos y contenido integrados con IA nativa.
 
-La diferencia:
+La diferencia entre un CRM tradicional y un CDM:
 
 | CRM tradicional | Centro de Mando (CDM) |
 |---|---|
@@ -159,8 +159,19 @@ La diferencia:
 | Plataforma que alquilas | Patrimonio digital que construyes |
 | Silos (CRM, CMS, WhatsApp, email por separado) | Todo integrado con IA nativa |
 
-El módulo `integration/` de este repo prepara el acople. Actívalo cuando tu CDM esté listo.
+El módulo `integration/` de este repo prepara el acople al CDM.
+
+## Instalación, personalización e integración
+
+Este template te deja con un colaborador de voz funcional básico. Si quieres:
+
+- Interfaz web white-label personalizada para tu marca
+- Integración completa con el Centro de Mando (leads, calendario, pagos)
+- Soporte en la configuración, prompts de conversación custom por sector
+- Integración con WhatsApp, email y otros canales
+
+[Escríbenos por WhatsApp](https://wa.me/34610842736?text=Hola!%20Ya%20tengo%20el%20colaborador%20digital%20de%20voz%20y%20quiero%20que%20me%20ayuden%20con%20la%20instalaci%C3%B3n.) y lo implementamos contigo.
 
 ## Licencia
 
-MIT — úsalo, modifícalo, adáptalo. Si construyes algo potente con este template, sería genial saberlo.
+MIT — úsalo, modifícalo, adáptalo.
