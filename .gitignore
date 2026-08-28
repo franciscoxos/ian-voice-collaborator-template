@@ -5,6 +5,10 @@ node_modules/
 
 # Claude Code / agent memory (never distribute)
 .claude/
+.codex/
+.Codex/
+.opencode/
+graphify-out/
 CLAUDE.md
 CONTEXT.md
 MEMORY.md
